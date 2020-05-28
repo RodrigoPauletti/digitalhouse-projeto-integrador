@@ -1,0 +1,774 @@
+{
+  "data": [
+    {
+      "type": "map",
+      "attributes": {
+        "key": "ar_baggage"
+      },
+      "metadata": {
+        "name": "Baggage",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/ar_baggage.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 73,
+          "displayValue": "73",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 48,
+          "displayValue": "48",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "ar_monastery"
+      },
+      "metadata": {
+        "name": "Monastery",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/ar_monastery.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 79,
+          "displayValue": "79",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 52,
+          "displayValue": "52",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "ar_shoots"
+      },
+      "metadata": {
+        "name": "Shoots",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/ar_shoots.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 319,
+          "displayValue": "319",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 220,
+          "displayValue": "220",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "cs_assault"
+      },
+      "metadata": {
+        "name": "Assault",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/cs_assault.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 109,
+          "displayValue": "109",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 83,
+          "displayValue": "83",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "cs_italy"
+      },
+      "metadata": {
+        "name": "Italy",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/cs_italy.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 610,
+          "displayValue": "610",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 397,
+          "displayValue": "397",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "cs_militia"
+      },
+      "metadata": {
+        "name": "Militia",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/cs_militia.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 37,
+          "displayValue": "37",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 24,
+          "displayValue": "24",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "cs_office"
+      },
+      "metadata": {
+        "name": "Office",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/cs_office.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 788,
+          "displayValue": "788",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 436,
+          "displayValue": "436",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_aztec"
+      },
+      "metadata": {
+        "name": "Aztec",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_aztec.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 238,
+          "displayValue": "238",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 165,
+          "displayValue": "165",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_bank"
+      },
+      "metadata": {
+        "name": "Bank",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_bank.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 118,
+          "displayValue": "118",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 82,
+          "displayValue": "82",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_cbble"
+      },
+      "metadata": {
+        "name": "Cobblestone",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_cbble.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 1864,
+          "displayValue": "1,864",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 1115,
+          "displayValue": "1,115",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_dust"
+      },
+      "metadata": {
+        "name": "Dust",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_dust.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 396,
+          "displayValue": "396",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 256,
+          "displayValue": "256",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_dust2"
+      },
+      "metadata": {
+        "name": "Dust II",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_dust2.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 67963,
+          "displayValue": "67,963",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 38429,
+          "displayValue": "38,429",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_inferno"
+      },
+      "metadata": {
+        "name": "Inferno",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_inferno.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 12686,
+          "displayValue": "12,686",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 6680,
+          "displayValue": "6,680",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_lake"
+      },
+      "metadata": {
+        "name": "Lake",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_lake.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 329,
+          "displayValue": "329",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 167,
+          "displayValue": "167",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_nuke"
+      },
+      "metadata": {
+        "name": "Nuke",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_nuke.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 4109,
+          "displayValue": "4,109",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 2218,
+          "displayValue": "2,218",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_piranesi"
+      },
+      "metadata": {
+        "name": "Piranesi",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_piranesi.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 338,
+          "displayValue": "338",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 206,
+          "displayValue": "206",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_safehouse"
+      },
+      "metadata": {
+        "name": "Safehouse",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_safehouse.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 327,
+          "displayValue": "327",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 222,
+          "displayValue": "222",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_shorttrain"
+      },
+      "metadata": {
+        "name": "Shorttrain",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_train.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 50,
+          "displayValue": "50",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 33,
+          "displayValue": "33",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_stmarc"
+      },
+      "metadata": {
+        "name": "St. Marc",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_stmarc.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 92,
+          "displayValue": "92",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 62,
+          "displayValue": "62",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_sugarcane"
+      },
+      "metadata": {
+        "name": "Sugarcane",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_sugarcane.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 39,
+          "displayValue": "39",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 26,
+          "displayValue": "26",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_train"
+      },
+      "metadata": {
+        "name": "Train",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_train.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 1291,
+          "displayValue": "1,291",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 723,
+          "displayValue": "723",
+          "displayType": "Number"
+        }
+      }
+    },
+    {
+      "type": "map",
+      "attributes": {
+        "key": "de_vertigo"
+      },
+      "metadata": {
+        "name": "Vertigo",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_vertigo.jpg"
+      },
+      "expiryDate": "2020-05-27T03:20:05.2342134+00:00",
+      "stats": {
+        "rounds": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Rounds",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 90,
+          "displayValue": "90",
+          "displayType": "Number"
+        },
+        "wins": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Wins",
+          "displayCategory": "Round",
+          "category": "round",
+          "metadata": {},
+          "value": 57,
+          "displayValue": "57",
+          "displayType": "Number"
+        }
+      }
+    }
+  ]
+}

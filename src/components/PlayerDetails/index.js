@@ -7,7 +7,10 @@ import {
   PlayerName,
 } from "./styles";
 
-export default function PlayerDetails({ image, name, winner }) {
+import { SmallBarCentered } from "../../styles";
+import { colors } from "../../variables";
+
+export default function PlayerDetails({ image, name, winner, color }) {
   return (
     <PlayerDetailsContainer>
       {winner ? (
@@ -16,6 +19,7 @@ export default function PlayerDetails({ image, name, winner }) {
         <PlayerImageRoundedSmaller src={image} />
       )}
       <PlayerName>{name}</PlayerName>
+      <SmallBarCentered color={color ?? colors.yellow} />
     </PlayerDetailsContainer>
   );
 }

@@ -22,18 +22,40 @@ export const KillsCount = styled.p`
   border: 3px solid ${colors.yellow};
 `;
 
-export const KillsTextGeneral = styled.p`
-  font-size: 18px;
-  font-weight: medium;
-`;
-
 export const KillsStatsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px auto 0;
-  p {
-    margin-left: 10px;
-    color: ${colors.yellow};
-  }
+`;
+
+export const KillsTextGeneral = styled.p`
+  margin-left: 10px;
+  color: ${colors.yellow};
+  font-size: 18px;
+  font-weight: medium;
+`;
+
+export const KillsVersusContainer = styled.div`
+  display: flex;
+`;
+
+export const KillsVersusPlayerContainer = styled.div`
+  flex: 1;
+`;
+
+export const KillsVersusPlayer = styled.p`
+  font-weight: bold;
+`;
+
+export const KillsVersusCount = styled.p`
+  color: ${colors.yellow};
+  font-weight: bold;
+`;
+
+export const KillsVersusStatsContainer = styled(KillsStatsContainer)``;
+
+export const KillsVersusTextGeneral = styled(KillsTextGeneral)`
+  font-size: 12px;
+  margin-left: 2px;
 `;

@@ -1,0 +1,1834 @@
+{
+  "data": [
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "ak47"
+      },
+      "metadata": {
+        "name": "AK-47",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/197_icon-ak47.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 482954,
+          "displayValue": "482,954",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 3037162,
+          "displayValue": "3,037,162",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 987847,
+          "displayValue": "987,847",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 32.52533121381079,
+          "displayValue": "32.53",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "aug"
+      },
+      "metadata": {
+        "name": "AUG",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/193_icon-aug.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1799,
+          "displayValue": "1,799",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 20865,
+          "displayValue": "20,865",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 5816,
+          "displayValue": "5,816",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 27.87443086508507,
+          "displayValue": "27.87",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "awp"
+      },
+      "metadata": {
+        "name": "AWP",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/191_icon-awp.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 36824,
+          "displayValue": "36,824",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 114332,
+          "displayValue": "114,332",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 43930,
+          "displayValue": "43,930",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 38.423188608613515,
+          "displayValue": "38.42",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "bizon"
+      },
+      "metadata": {
+        "name": "PP-Bizon",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/189_icon-bizon.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 9379,
+          "displayValue": "9,379",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 104749,
+          "displayValue": "104,749",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 27975,
+          "displayValue": "27,975",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 26.70669887063361,
+          "displayValue": "26.71",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "deagle"
+      },
+      "metadata": {
+        "name": "Desert Eagle",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/184_icon-deagle.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 55174,
+          "displayValue": "55,174",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 124099,
+          "displayValue": "124,099",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 88975,
+          "displayValue": "88,975",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 71.6967904656766,
+          "displayValue": "71.70",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "elite"
+      },
+      "metadata": {
+        "name": "Dual Berettas",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/175_icon-elite.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 2060,
+          "displayValue": "2,060",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 21650,
+          "displayValue": "21,650",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7711,
+          "displayValue": "7,711",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 35.61662817551963,
+          "displayValue": "35.62",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "famas"
+      },
+      "metadata": {
+        "name": "FAMAS",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/173_icon-famas.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 25370,
+          "displayValue": "25,370",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 138957,
+          "displayValue": "138,957",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 54794,
+          "displayValue": "54,794",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 39.43234237929719,
+          "displayValue": "39.43",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "fiveseven"
+      },
+      "metadata": {
+        "name": "Five-SeveN",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/171_icon-fiveseven.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 6348,
+          "displayValue": "6,348",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 37654,
+          "displayValue": "37,654",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 16851,
+          "displayValue": "16,851",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 44.7522175598874,
+          "displayValue": "44.75",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "g3sg1"
+      },
+      "metadata": {
+        "name": "G3SG1",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/165_icon-g3sg1.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7865,
+          "displayValue": "7,865",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 13928,
+          "displayValue": "13,928",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 12660,
+          "displayValue": "12,660",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 90.89603676048247,
+          "displayValue": "90.90",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "galilar"
+      },
+      "metadata": {
+        "name": "Galil AR",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/162_icon-galilar.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 11604,
+          "displayValue": "11,604",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 89434,
+          "displayValue": "89,434",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 26608,
+          "displayValue": "26,608",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 29.751548628038556,
+          "displayValue": "29.75",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "glock"
+      },
+      "metadata": {
+        "name": "Glock-18",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/161_icon-glock.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 32685,
+          "displayValue": "32,685",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 266299,
+          "displayValue": "266,299",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 96171,
+          "displayValue": "96,171",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 36.11391706315082,
+          "displayValue": "36.11",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "hkp2000"
+      },
+      "metadata": {
+        "name": "P2000",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/151_icon-hkp2000.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 39818,
+          "displayValue": "39,818",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 260761,
+          "displayValue": "260,761",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 105641,
+          "displayValue": "105,641",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 40.51257665064944,
+          "displayValue": "40.51",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "m249"
+      },
+      "metadata": {
+        "name": "M249",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/105_icon-m249.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 2345,
+          "displayValue": "2,345",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 51303,
+          "displayValue": "51,303",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 13663,
+          "displayValue": "13,663",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 26.631970839911894,
+          "displayValue": "26.63",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "m4a1"
+      },
+      "metadata": {
+        "name": "M4A4",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/102_icon-m4a1.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 173212,
+          "displayValue": "173,212",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 840860,
+          "displayValue": "840,860",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 404640,
+          "displayValue": "404,640",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 48.122160645053874,
+          "displayValue": "48.12",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "mac10"
+      },
+      "metadata": {
+        "name": "MAC-10",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/96_icon-mac10.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1476,
+          "displayValue": "1,476",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 34860,
+          "displayValue": "34,860",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 8403,
+          "displayValue": "8,403",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 24.10499139414802,
+          "displayValue": "24.10",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "mag7"
+      },
+      "metadata": {
+        "name": "MAG-7",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/94_icon-mag7.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1403,
+          "displayValue": "1,403",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 40627,
+          "displayValue": "40,627",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 10565,
+          "displayValue": "10,565",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 26.00487360622246,
+          "displayValue": "26.00",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "mp7"
+      },
+      "metadata": {
+        "name": "MP7",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/81_icon-mp7.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7632,
+          "displayValue": "7,632",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 99429,
+          "displayValue": "99,429",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 25032,
+          "displayValue": "25,032",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 25.17575355278641,
+          "displayValue": "25.18",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "mp9"
+      },
+      "metadata": {
+        "name": "MP9",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/79_icon-mp9.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1342,
+          "displayValue": "1,342",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 35442,
+          "displayValue": "35,442",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7425,
+          "displayValue": "7,425",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 20.949720670391063,
+          "displayValue": "20.95",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "negev"
+      },
+      "metadata": {
+        "name": "Negev",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/77_icon-negev.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 2045,
+          "displayValue": "2,045",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 204159,
+          "displayValue": "204,159",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 42185,
+          "displayValue": "42,185",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 20.662816726179106,
+          "displayValue": "20.66",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "nova"
+      },
+      "metadata": {
+        "name": "Nova",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/75_icon-nova.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1616,
+          "displayValue": "1,616",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 55548,
+          "displayValue": "55,548",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 13617,
+          "displayValue": "13,617",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 24.51393389500972,
+          "displayValue": "24.51",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "p250"
+      },
+      "metadata": {
+        "name": "P250",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/72_icon-p250.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 6453,
+          "displayValue": "6,453",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 50365,
+          "displayValue": "50,365",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 17436,
+          "displayValue": "17,436",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 34.61927926139184,
+          "displayValue": "34.62",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "p90"
+      },
+      "metadata": {
+        "name": "P90",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/70_icon-p90.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7089,
+          "displayValue": "7,089",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 497218,
+          "displayValue": "497,218",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 136341,
+          "displayValue": "136,341",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 27.420769159604035,
+          "displayValue": "27.42",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "sawedoff"
+      },
+      "metadata": {
+        "name": "Sawed-Off",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/60_icon-sawedoff.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1205,
+          "displayValue": "1,205",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 41150,
+          "displayValue": "41,150",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7681,
+          "displayValue": "7,681",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 18.665856622114216,
+          "displayValue": "18.67",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "scar20"
+      },
+      "metadata": {
+        "name": "SCAR-20",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/57_icon-scar20.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7763,
+          "displayValue": "7,763",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 9975,
+          "displayValue": "9,975",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 12379,
+          "displayValue": "12,379",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 124.10025062656642,
+          "displayValue": "124.10",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "sg556"
+      },
+      "metadata": {
+        "name": "SG 553",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/51_icon-sg556.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 3480,
+          "displayValue": "3,480",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 28242,
+          "displayValue": "28,242",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 8041,
+          "displayValue": "8,041",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 28.471779619007155,
+          "displayValue": "28.47",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "ssg08"
+      },
+      "metadata": {
+        "name": "SSG 08",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/45_icon-ssg08.png",
+        "category": {
+          "value": "rifle",
+          "displayValue": "Rifle"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 4399,
+          "displayValue": "4,399",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 21655,
+          "displayValue": "21,655",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 7790,
+          "displayValue": "7,790",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 35.97321634726391,
+          "displayValue": "35.97",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "taser"
+      },
+      "metadata": {
+        "name": "Zeus x27",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/41_icon-taser.png",
+        "category": {
+          "value": "gear",
+          "displayValue": "Gear"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 419,
+          "displayValue": "419",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 953,
+          "displayValue": "953",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 0,
+          "displayValue": "0",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 0,
+          "displayValue": "0.00",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "tec9"
+      },
+      "metadata": {
+        "name": "Tec-9",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/39_icon-tec9.png",
+        "category": {
+          "value": "pistol",
+          "displayValue": "Pistol"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 16431,
+          "displayValue": "16,431",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 135089,
+          "displayValue": "135,089",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 43730,
+          "displayValue": "43,730",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 32.37125154527756,
+          "displayValue": "32.37",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "ump45"
+      },
+      "metadata": {
+        "name": "UMP-45",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/36_icon-ump45.png",
+        "category": {
+          "value": "smg",
+          "displayValue": "SMG"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1873,
+          "displayValue": "1,873",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 37996,
+          "displayValue": "37,996",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 8128,
+          "displayValue": "8,128",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 21.39172544478366,
+          "displayValue": "21.39",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    },
+    {
+      "type": "weapon",
+      "attributes": {
+        "key": "xm1014"
+      },
+      "metadata": {
+        "name": "XM1014",
+        "imageUrl": "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/29_icon-xm1014.png",
+        "category": {
+          "value": "heavy",
+          "displayValue": "Heavy"
+        }
+      },
+      "expiryDate": "2020-05-27T03:19:51.3208896+00:00",
+      "stats": {
+        "kills": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Kills",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 1405,
+          "displayValue": "1,405",
+          "displayType": "Number"
+        },
+        "shotsFired": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Fired",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 42183,
+          "displayValue": "42,183",
+          "displayType": "Number"
+        },
+        "shotsHit": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Hit",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 10499,
+          "displayValue": "10,499",
+          "displayType": "Number"
+        },
+        "shotsAccuracy": {
+          "rank": null,
+          "percentile": null,
+          "displayName": "Shots Accuracy",
+          "displayCategory": "Combat",
+          "category": "combat",
+          "metadata": {},
+          "value": 24.889173363677312,
+          "displayValue": "24.89",
+          "displayType": "NumberPrecision2"
+        }
+      }
+    }
+  ]
+}
