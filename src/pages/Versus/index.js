@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -31,7 +32,9 @@ export default function Versus() {
           <SmallBar color="#1F40ED" />
           <Input placeholder="Steam ID" />
         </PlayerContainer>
-        <Button>Resultado</Button>
+        <Button>
+          <Link to="versusResult">Resultado</Link>
+        </Button>
       </VersusContainer>
       <Footer />
     </>

@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: ${fonts.Roboto};
     color: ${colors.light};
+    text-decoration: none;
   }
   html, body {
     height: 100%;

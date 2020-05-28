@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -23,7 +24,9 @@ export default function Statistics() {
         <StatisticsDescription>Veja suas estatísticas</StatisticsDescription>
         <BarSpaced color="#FED701" />
         <Input placeholder="Steam ID" />
-        <Button>Resultado</Button>
+        <Button>
+          <Link to="statisticsResult">Resultado</Link>
+        </Button>
       </StatisticsContainer>
       <Footer />
     </>

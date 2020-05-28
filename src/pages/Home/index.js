@@ -31,11 +31,13 @@ export default function Home() {
             title="Minhas estatisticas"
             description="Veja sua quantidade de kills, arma favorita e muito mais!!!"
             buttonText="Avançar"
+            link="/statistics"
           />
           <Card
             title="1 vs 1"
             description="Entre você e seu amigo quem é o melhor no CS? Saiba agora"
             buttonText="Avançar"
+            link="/versus"
             bigTitle={true}
           />
           <WarningContainer>

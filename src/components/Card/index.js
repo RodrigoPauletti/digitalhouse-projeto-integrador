@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   CardContainer,
@@ -8,7 +9,13 @@ import {
 } from "./styles";
 import { Button } from "../../styles";
 
-export default function Card({ title, description, buttonText, bigTitle }) {
+export default function Card({
+  title,
+  description,
+  buttonText,
+  bigTitle,
+  link,
+}) {
   return (
     <CardContainer>
       {bigTitle ? (
@@ -17,7 +24,9 @@ export default function Card({ title, description, buttonText, bigTitle }) {
         <CardTitle>{title}</CardTitle>
       )}
       <CardDescription>{description}</CardDescription>
-      <Button>{buttonText}</Button>
+      <Button>
+        <Link to={link}>{buttonText}</Link>
+      </Button>
     </CardContainer>
   );
 }

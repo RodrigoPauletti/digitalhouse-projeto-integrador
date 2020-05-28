@@ -32,7 +32,7 @@ export default function PlayerKD({
     <GraphicContainer>
       <GraphicIcon src={playerTarget} alt="Player target icon" />
       <GraphicTitle>K/D</GraphicTitle>
-      {kdPercentage.length ? (
+      {kdPercentage && kdPercentage.length ? (
         <PlayerKDVersusContainer>
           {kdPercentage.map((item, index) => {
             const total = item.kills + item.deaths;
