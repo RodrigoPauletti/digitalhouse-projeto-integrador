@@ -28,6 +28,8 @@ export default function PlayerKD({
   const total = kills + deaths;
   const kdAccuracyPercentage = parseFloat(((kills / total) * 100).toFixed(2));
 
+  console.log(kills, deaths, total);
+
   return (
     <GraphicContainer>
       <GraphicIcon src={playerTarget} alt="Player target icon" />

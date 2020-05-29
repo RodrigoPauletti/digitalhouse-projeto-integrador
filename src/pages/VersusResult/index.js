@@ -27,8 +27,6 @@ export default function VersusResult() {
           deaths: { value: totalDeaths },
           snipersKilled: { value: sniperKills },
           headshots: { value: headshotsKills },
-          shotsAccuracy: { value: accuracyPercentage },
-          kd: { value: kdPercentage },
           timePlayed: { value: timePlayed },
         },
       },

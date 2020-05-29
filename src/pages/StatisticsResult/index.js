@@ -28,7 +28,7 @@ export default function StatisticsResult() {
           snipersKilled: { value: sniperKills },
           headshots: { value: headshotsKills },
           shotsAccuracy: { value: accuracyPercentage },
-          kd: { value: kdPercentage },
+          kd: { displayValue: kdPercentage },
           timePlayed: { value: timePlayed },
         },
       },
