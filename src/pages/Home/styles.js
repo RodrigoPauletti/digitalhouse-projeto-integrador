@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-import fonts from "../../fonts";
 import { colors } from "../../variables";
 
 import bgImage from "../../assets/images/bg.png";

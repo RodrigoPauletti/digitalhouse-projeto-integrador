@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
@@ -9,9 +9,18 @@ import {
   StatisticsTitle,
   StatisticsDescription,
 } from "./styles";
+
 import { BarSpaced, Button, Input } from "../../styles";
 
+import { colors } from "../../variables";
+
 export default function Statistics() {
+  const [steamID, setSteamID] = useState("76561198008049283");
+
+  function handleChange(element) {
+    setSteamID(element.target.value);
+  }
+
   return (
     <>
       <Header />
@@ -22,8 +31,13 @@ export default function Statistics() {
           ticas
         </StatisticsTitle>
         <StatisticsDescription>Veja suas estatísticas</StatisticsDescription>
-        <BarSpaced color="#FED701" />
-        <Input placeholder="Steam ID" />
+        <BarSpaced color={colors.yellow} />
+        <Input
+          id="inputsteamid"
+          onChange={(e) => handleChange(e)}
+          placeholder="Steam ID"
+          value={steamID}
+        />
         <Button>
           <Link to="statisticsResult">Resultado</Link>
         </Button>

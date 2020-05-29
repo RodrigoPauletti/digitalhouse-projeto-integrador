@@ -59,7 +59,7 @@ export default function PlayerKills({ killsData }) {
           })}
         </KillsVersusContainer>
       ) : (
-        <>
+        <React.Fragment>
           <KillsCount>{killsData.totalKills}</KillsCount>
           {killsData.weaponsKills.length
             ? killsData.weaponsKills.map((weapon, index) => {
@@ -79,7 +79,7 @@ export default function PlayerKills({ killsData }) {
                 return false;
               })
             : ""}
-        </>
+        </React.Fragment>
       )}
     </KillsContainer>
   );

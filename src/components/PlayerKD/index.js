@@ -25,10 +25,11 @@ export default function PlayerKD({
   kills,
   deaths,
 }) {
-  const total = kills + deaths;
-  const kdAccuracyPercentage = parseFloat(((kills / total) * 100).toFixed(2));
-
-  console.log(kills, deaths, total);
+  const totalPersonal = kills + deaths;
+  const kdAccuracyPercentagePersonal = parseFloat(
+    ((kills / totalPersonal) * 100).toFixed(2)
+  );
+  const kdPersonal = parseFloat((kills / deaths).toFixed(2));
 
   return (
     <GraphicContainer>
@@ -37,19 +38,20 @@ export default function PlayerKD({
       {kdPercentage && kdPercentage.length ? (
         <PlayerKDVersusContainer>
           {kdPercentage.map((item, index) => {
-            const total = item.kills + item.deaths;
-            const accuracy = parseFloat(
-              ((item.kills / total) * 100).toFixed(2)
+            const totalVersus = item.kills + item.deaths;
+            const accuracyVersus = parseFloat(
+              ((item.kills / totalVersus) * 100).toFixed(2)
             );
+            const kdVersus = parseFloat((item.kills / item.deaths).toFixed(2));
             return (
               <PlayerKDVersusItem key={index}>
                 <GraphicCount
                   key={index}
-                  accuracyPercentage={accuracy}
+                  accuracyPercentage={accuracyVersus}
                   positiveColor={item.colorLight}
                   negativeColor={item.colorBlack}
                 >
-                  <p>{accuracy.toFixed(2)}%</p>
+                  <p>{kdVersus.toFixed(2)}%</p>
                 </GraphicCount>
                 <PlayerKDText>
                   <PlayerKDTextIcon src={killsIcon} />
@@ -64,13 +66,13 @@ export default function PlayerKD({
           })}
         </PlayerKDVersusContainer>
       ) : (
-        <>
+        <React.Fragment>
           <GraphicCount
-            accuracyPercentage={kdAccuracyPercentage}
+            accuracyPercentage={kdAccuracyPercentagePersonal}
             positiveColor={positiveColor}
             negativeColor={negativeColor}
           >
-            <p>{kdAccuracyPercentage.toFixed(2)}%</p>
+            <p>{kdPersonal.toFixed(2)}%</p>
           </GraphicCount>
           <PlayerKDText>
             <PlayerKDTextIcon src={killsIcon} />
@@ -80,7 +82,7 @@ export default function PlayerKD({
             <PlayerKDTextIcon src={target} />
             <p>Deaths: {deaths}</p>
           </PlayerKDText>
-        </>
+        </React.Fragment>
       )}
     </GraphicContainer>
   );

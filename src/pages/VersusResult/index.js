@@ -6,7 +6,6 @@ import PlayerDetails from "../../components/PlayerDetails";
 import PlayerKills from "../../components/PlayerKills";
 import PlayerAccuracy from "../../components/PlayerAccuracy";
 import PlayerKD from "../../components/PlayerKD";
-import PlayerFavoriteWeapon from "../../components/PlayerFavoriteWeapon";
 import PlayerUptime from "../../components/PlayerUptime";
 import PlayerMapMostPlayed from "../../components/PlayerMapMostPlayed";
 
@@ -19,7 +18,6 @@ import player from "../../assets/json/player.json";
 export default function VersusResult() {
   console.log(player.data);
   const {
-    platformInfo: { avatarUrl: playerImage, platformUserHandle: playerName },
     segments: {
       0: {
         stats: {
@@ -27,11 +25,11 @@ export default function VersusResult() {
           deaths: { value: totalDeaths },
           snipersKilled: { value: sniperKills },
           headshots: { value: headshotsKills },
+          shotsAccuracy: { value: accuracyPercentage },
           timePlayed: { value: timePlayed },
         },
       },
     },
-    knifeKills,
   } = player.data;
 
   const players = [
@@ -46,19 +44,21 @@ export default function VersusResult() {
             name: "sniper",
             kills: sniperKills,
           },
-          // {
-          //   name: "knife",
-          //   kills: knifeKills,
-          // },
           {
             name: "headshots",
             kills: headshotsKills,
           },
         ],
       },
-      accuracyPercentage: 34,
+      accuracyPercentage,
       kills: totalKills,
       deaths: totalDeaths,
+      mapMostPlayed: {
+        name: "Baggage",
+        imageUrl:
+          "https://trackercdn.com/cdn/tracker.gg/csgo/maps/ar_baggage.jpg",
+      },
+      timePlayed,
     },
     {
       image: "player-1.png",
@@ -70,10 +70,6 @@ export default function VersusResult() {
             name: "sniper",
             kills: 31,
           },
-          // {
-          //   name: "knife",
-          //   kills: 12,
-          // },
           {
             name: "headshots",
             kills: 129,
@@ -82,17 +78,22 @@ export default function VersusResult() {
       },
       accuracyPercentage: 68,
       kills: 1335,
-      deaths: 79,
+      deaths: 196,
+      mapMostPlayed: {
+        name: "Dust",
+        imageUrl: "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_dust.jpg",
+      },
+      timePlayed: 410232,
     },
   ];
 
   return (
     <>
       <Header />
-      <StatisticsDetailsContainer>
-        <StatisticsDetailsTitle>Vencedor</StatisticsDetailsTitle>
-        {players && players.length ? (
-          players.map((player, index) => {
+      {players && players.length ? (
+        <StatisticsDetailsContainer>
+          <StatisticsDetailsTitle>Vencedor</StatisticsDetailsTitle>
+          {players.map((player, index) => {
             return (
               <PlayerDetails
                 key={index}
@@ -102,25 +103,13 @@ export default function VersusResult() {
                 color={index === 0 ? colors.blue : colors.red}
               />
             );
-          })
-        ) : (
-          <PlayerDetails image={playerImage} name={playerName} winner />
-        )}
-        {players && players.length ? (
+          })}
           <PlayerKills killsData={players.map((player) => player.killsData)} />
-        ) : (
-          ""
-        )}
-        {players && players.length ? (
           <PlayerAccuracy
             accuracyPercentage={players.map(
               (player) => player.accuracyPercentage
             )}
           />
-        ) : (
-          ""
-        )}
-        {players && players.length ? (
           <PlayerKD
             kdPercentage={players.map((player, index) => {
               const { kills, deaths } = player;
@@ -133,18 +122,16 @@ export default function VersusResult() {
               return playerKD;
             })}
           />
-        ) : (
-          ""
-        )}
-        <PlayerUptime timePlayed={timePlayed} />
-        <PlayerMapMostPlayed
-          mapMostPlayed={{
-            name: "Dust",
-            imageUrl:
-              "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_dust.jpg",
-          }}
-        />
-      </StatisticsDetailsContainer>
+          <PlayerUptime
+            timePlayed={players.map((player) => player.timePlayed)}
+          />
+          <PlayerMapMostPlayed
+            mapMostPlayed={players.map((player) => player.mapMostPlayed)}
+          />
+        </StatisticsDetailsContainer>
+      ) : (
+        ""
+      )}
       <Footer buttonText="Tente novamente" />
     </>
   );
