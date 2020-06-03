@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
@@ -15,6 +15,16 @@ import {
 import { SmallBar, Button, Input } from "../../styles";
 
 export default function Versus() {
+  const [steamID1, setSteamID1] = useState("");
+  const [steamID2, setSteamID2] = useState("");
+
+  function handleChange(element, inputIndex) {
+    if (inputIndex === 1) {
+      setSteamID1(element.target.value);
+    } else if (inputIndex === 2) {
+      setSteamID2(element.target.value);
+    }
+  }
   return (
     <>
       <Header />
@@ -24,16 +34,32 @@ export default function Versus() {
         <PlayerContainer>
           <PlayerTitle>P1</PlayerTitle>
           <SmallBar color="#ED1F1F" />
-          <Input placeholder="Steam ID" />
+          <Input
+            onChange={(e) => handleChange(e, 1)}
+            placeholder="Steam ID"
+            value={steamID1}
+          />
         </PlayerContainer>
         <VersusText>Vs</VersusText>
         <PlayerContainer>
           <PlayerTitle>P2</PlayerTitle>
           <SmallBar color="#1F40ED" />
-          <Input placeholder="Steam ID" />
+          <Input
+            onChange={(e) => handleChange(e, 2)}
+            placeholder="Steam ID"
+            value={steamID2}
+          />
         </PlayerContainer>
         <Button>
-          <Link to="versusResult">Resultado</Link>
+          <Link
+            to={{
+              pathname: "/versusResult",
+              playerID1: steamID1,
+              playerID2: steamID2,
+            }}
+          >
+            Resultado
+          </Link>
         </Button>
       </VersusContainer>
       <Footer />

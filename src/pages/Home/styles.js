@@ -49,7 +49,8 @@ export const WarningText = styled.p`
   margin-left: 5px;
 `;
 
-export const WarningTextFeatured = styled(WarningText)`
+export const WarningTextFeatured = styled.a`
+  color: ${colors.yellow};
   font-weight: bold;
   font-size: 12px;
 `;

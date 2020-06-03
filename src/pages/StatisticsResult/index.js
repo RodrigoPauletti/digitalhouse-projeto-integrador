@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useLocation, useHistory } from "react-router-dom";
+import Lottie from "lottie-web-react";
 
 import { api } from "../../services/api";
 
@@ -15,43 +17,156 @@ import PlayerMapMostPlayed from "../../components/PlayerMapMostPlayed";
 import { StatisticsDetailsContainer, StatisticsDetailsTitle } from "./styles";
 import { colors } from "../../variables";
 
-import player from "../../assets/json/player.json";
-// import map from "../../assets/json/maps.json";
+import loadingAnimationData from "../../assets/json/loading.json";
 
 export default function StatisticsResult() {
+  const history = useHistory();
   const [loading, setLoading] = useState(true);
+  const { playerID } = useLocation();
+  const [player, setPlayer] = useState({
+    playerImage: "",
+    playerName: "",
+    totalKills: 0,
+    totalDeaths: 0,
+    sniperKills: 0,
+    headshotsKills: 0,
+    accuracyPercentage: 0,
+    kdPercentage: 0,
+    timePlayed: 0,
+    knifeKills: 0,
+    favoriteWeapon: {},
+    mapMostPlayed: {},
+  });
 
-  console.log(player.data);
-  const {
-    platformInfo: { avatarUrl: playerImage, platformUserHandle: playerName },
-    segments: {
-      0: {
-        stats: {
-          kills: { value: totalKills },
-          deaths: { value: totalDeaths },
-          snipersKilled: { value: sniperKills },
-          headshots: { value: headshotsKills },
-          shotsAccuracy: { value: accuracyPercentage },
-          kd: { displayValue: kdPercentage },
-          timePlayed: { value: timePlayed },
-        },
-      },
-    },
-    knifeKills,
-  } = player.data;
+  function getPlayer() {
+    if (playerID) {
+      api
+        .get(playerID)
+        .then(async (res) => {
+          if (res && res.status === 200 && res.data && res.data.data) {
+            const {
+              platformInfo: {
+                avatarUrl: playerImage,
+                platformUserHandle: playerName,
+              },
+              segments: {
+                0: {
+                  stats: {
+                    kills: { value: totalKills },
+                    deaths: { value: totalDeaths },
+                    snipersKilled: { value: sniperKills },
+                    headshots: { value: headshotsKills },
+                    shotsAccuracy: { value: accuracyPercentage },
+                    kd: { displayValue: kdPercentage },
+                    timePlayed: { value: timePlayed },
+                  },
+                },
+              },
+              knifeKills,
+            } = res.data.data;
+            let favoriteWeapon;
+            await api
+              .get(`${playerID}/segments/weapon`)
+              .then((res) => {
+                const weapons = res.data.data;
+                favoriteWeapon = getWeaponMoreUsed(weapons);
+              })
+              .catch(() => {
+                return history.push("/statistics");
+              });
+            let mapMostPlayed;
+            await api
+              .get(`${playerID}/segments/map`)
+              .then((res) => {
+                const maps = res.data.data;
+                mapMostPlayed = getMapMostPlayed(maps);
+              })
+              .catch(() => {
+                return history.push("/statistics");
+              });
+            setPlayer({
+              playerImage,
+              playerName,
+              totalKills,
+              totalDeaths,
+              sniperKills,
+              headshotsKills,
+              accuracyPercentage,
+              kdPercentage,
+              timePlayed,
+              knifeKills,
+              favoriteWeapon,
+              mapMostPlayed,
+            });
+            setLoading(false);
+          }
+        })
+        .catch(() => {
+          return history.push("/statistics");
+        });
+    } else {
+      history.push("/statistics");
+    }
+  }
+
+  function getWeaponMoreUsed(weapons) {
+    let key = "",
+      name = "",
+      imageUrl = "";
+    ({
+      attributes: { key },
+      metadata: { imageUrl, name },
+    } = weapons.sort(makeSorter((x) => x.stats.kills.value, "desc"))[0]);
+    return {
+      key,
+      name,
+      imageUrl,
+    };
+  }
+
+  function getMapMostPlayed(maps) {
+    let name = "",
+      imageUrl = "";
+    ({
+      metadata: { imageUrl, name },
+    } = maps.sort(makeSorter((x) => x.stats.rounds.value, "desc"))[0]);
+    return {
+      name,
+      imageUrl,
+    };
+  }
+
+  function makeSorter(field, direction) {
+    return function (a, b) {
+      const valueA = typeof field === "function" ? field(a) : a[field];
+      const valueB = typeof field === "function" ? field(b) : b[field];
+      if (valueA > valueB) {
+        return direction === "asc" ? 1 : -1;
+      }
+      if (valueA < valueB) {
+        return direction === "asc" ? -1 : 1;
+      }
+      return 0;
+    };
+  }
 
   useEffect(() => {
-    api.get("76561198008049283").then((res) => {
-      console.log(res);
-    });
-    // api.get();
-    // setLoading(false);
+    getPlayer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <React.Fragment>
       {loading ? (
-        <p>Loading</p>
+        <Lottie
+          options={{
+            animationData: loadingAnimationData,
+            loop: true,
+            autoplay: true,
+          }}
+          playingState={"play"}
+          speed={1.7}
+        />
       ) : (
         <React.Fragment>
           <Header />
@@ -61,54 +176,45 @@ export default function StatisticsResult() {
               <br />
               estatisticas
             </StatisticsDetailsTitle>
-            <PlayerDetails image={playerImage} name={playerName} winner />
+            <PlayerDetails
+              image={player.playerImage}
+              name={player.playerName}
+              winner
+            />
             <PlayerKills
               killsData={{
-                totalKills,
+                totalKills: player.totalKills,
                 weaponsKills: [
                   {
                     name: "sniper",
-                    kills: sniperKills,
+                    kills: player.sniperKills,
                   },
                   {
                     name: "knife",
-                    kills: knifeKills,
+                    kills: player.knifeKills,
                   },
                   {
                     name: "headshots",
-                    kills: headshotsKills,
+                    kills: player.headshotsKills,
                   },
                 ],
               }}
             />
             <PlayerAccuracy
-              accuracyPercentage={accuracyPercentage}
+              accuracyPercentage={player.accuracyPercentage}
               positiveColor={colors.yellow}
               negativeColor={colors.yellowDark}
             />
             <PlayerKD
-              kdPercentage={parseFloat(kdPercentage)}
+              kdPercentage={parseFloat(player.kdPercentage)}
               positiveColor={colors.red}
               negativeColor={colors.redDark}
-              kills={totalKills}
-              deaths={totalDeaths}
+              kills={player.totalKills}
+              deaths={player.totalDeaths}
             />
-            <PlayerFavoriteWeapon
-              favoriteWeapon={{
-                key: "ak47",
-                name: "AK-47",
-                imageUrl:
-                  "https://trackercdn.com/cdn/tracker.gg/csgo/weapons/197_icon-ak47.png",
-              }}
-            />
-            <PlayerUptime timePlayed={timePlayed} />
-            <PlayerMapMostPlayed
-              mapMostPlayed={{
-                name: "Dust",
-                imageUrl:
-                  "https://trackercdn.com/cdn/tracker.gg/csgo/maps/de_dust.jpg",
-              }}
-            />
+            <PlayerFavoriteWeapon favoriteWeapon={player.favoriteWeapon} />
+            <PlayerUptime timePlayed={player.timePlayed} />
+            <PlayerMapMostPlayed mapMostPlayed={player.mapMostPlayed} />
           </StatisticsDetailsContainer>
           <Footer buttonText="Tente novamente" />
         </React.Fragment>

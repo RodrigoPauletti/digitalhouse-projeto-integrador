@@ -42,7 +42,7 @@ export default function PlayerAccuracy({
           positiveColor={positiveColor}
           negativeColor={negativeColor}
         >
-          <p>{accuracyPercentage.toFixed(0)}%</p>
+          <p>{accuracyPercentage ? accuracyPercentage.toFixed(0) : 0}%</p>
         </GraphicCount>
       )}
     </GraphicContainer>

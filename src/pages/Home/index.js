@@ -47,8 +47,12 @@ export default function Home() {
                 Lembre-se, só funciona se tiver conta CS:GO cadastrada
               </WarningText>
             </WarningTextContainer>
-            <WarningTextFeatured>
-              Criar conta CS:GO e começar a jogar !
+            <WarningTextFeatured
+              href="https://bit.ly/2MqNyYR"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Criar conta CS:GO e começar a jogar!
             </WarningTextFeatured>
           </WarningContainer>
         </InternalContainer>

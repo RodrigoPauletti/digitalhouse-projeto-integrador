@@ -15,7 +15,7 @@ import { BarSpaced, Button, Input } from "../../styles";
 import { colors } from "../../variables";
 
 export default function Statistics() {
-  const [steamID, setSteamID] = useState("76561198008049283");
+  const [steamID, setSteamID] = useState("");
 
   function handleChange(element) {
     setSteamID(element.target.value);
@@ -33,13 +33,14 @@ export default function Statistics() {
         <StatisticsDescription>Veja suas estatísticas</StatisticsDescription>
         <BarSpaced color={colors.yellow} />
         <Input
-          id="inputsteamid"
           onChange={(e) => handleChange(e)}
           placeholder="Steam ID"
           value={steamID}
         />
         <Button>
-          <Link to="statisticsResult">Resultado</Link>
+          <Link to={{ pathname: "/statisticsResult", playerID: steamID }}>
+            Resultado
+          </Link>
         </Button>
       </StatisticsContainer>
       <Footer />

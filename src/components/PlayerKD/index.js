@@ -47,19 +47,19 @@ export default function PlayerKD({
               <PlayerKDVersusItem key={index}>
                 <GraphicCount
                   key={index}
-                  accuracyPercentage={accuracyVersus}
+                  accuracyPercentage={accuracyVersus ? accuracyVersus : 0}
                   positiveColor={item.colorLight}
                   negativeColor={item.colorBlack}
                 >
-                  <p>{kdVersus.toFixed(2)}%</p>
+                  <p>{kdVersus}%</p>
                 </GraphicCount>
                 <PlayerKDText>
                   <PlayerKDTextIcon src={killsIcon} />
-                  <p>Kills: {item.kills}</p>
+                  <p>Kills: {item.kills ? item.kills : 0}</p>
                 </PlayerKDText>
                 <PlayerKDText>
                   <PlayerKDTextIcon src={target} />
-                  <p>Deaths: {item.deaths}</p>
+                  <p>Deaths: {item.deaths ? item.deaths : 0}</p>
                 </PlayerKDText>
               </PlayerKDVersusItem>
             );
@@ -68,19 +68,21 @@ export default function PlayerKD({
       ) : (
         <React.Fragment>
           <GraphicCount
-            accuracyPercentage={kdAccuracyPercentagePersonal}
+            accuracyPercentage={
+              kdAccuracyPercentagePersonal ? kdAccuracyPercentagePersonal : 0
+            }
             positiveColor={positiveColor}
             negativeColor={negativeColor}
           >
-            <p>{kdPersonal.toFixed(2)}%</p>
+            <p>{kdPersonal}%</p>
           </GraphicCount>
           <PlayerKDText>
             <PlayerKDTextIcon src={killsIcon} />
-            <p>Kills: {kills}</p>
+            <p>Kills: {kills ? kills : 0}</p>
           </PlayerKDText>
           <PlayerKDText>
             <PlayerKDTextIcon src={target} />
-            <p>Deaths: {deaths}</p>
+            <p>Deaths: {deaths ? deaths : 0}</p>
           </PlayerKDText>
         </React.Fragment>
       )}

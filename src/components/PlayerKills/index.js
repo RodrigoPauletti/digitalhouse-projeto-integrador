@@ -18,12 +18,8 @@ import { MediumBar } from "../../styles";
 import { colors } from "../../variables";
 
 import skull from "../../assets/images/skull.png";
-// import knife from "../../assets/images/knife.png";
-// import bullet from "../../assets/images/bullet.png";
 
 export default function PlayerKills({ killsData }) {
-  console.log(killsData);
-
   return (
     <KillsContainer>
       <img src={skull} alt="Skull icon" />
@@ -35,7 +31,9 @@ export default function PlayerKills({ killsData }) {
               <KillsVersusPlayerContainer key={index}>
                 <KillsVersusPlayer>P{index + 1}</KillsVersusPlayer>
                 <MediumBar color={index === 0 ? colors.blue : colors.red} />
-                <KillsVersusCount>{item.totalKills}</KillsVersusCount>
+                <KillsVersusCount>
+                  {item.totalKills ? item.totalKills : 0}
+                </KillsVersusCount>
                 {item.weaponsKills.length
                   ? item.weaponsKills.map((weapon, idx) => {
                       if (weapon.kills) {
@@ -60,7 +58,9 @@ export default function PlayerKills({ killsData }) {
         </KillsVersusContainer>
       ) : (
         <React.Fragment>
-          <KillsCount>{killsData.totalKills}</KillsCount>
+          <KillsCount>
+            {killsData.totalKills ? killsData.totalKills : 0}
+          </KillsCount>
           {killsData.weaponsKills.length
             ? killsData.weaponsKills.map((weapon, index) => {
                 if (weapon.kills) {
