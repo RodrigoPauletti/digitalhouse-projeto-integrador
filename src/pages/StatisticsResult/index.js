@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import Lottie from "lottie-web-react";
+import { toast } from "react-toastify";
 
 import { api } from "../../services/api";
 
@@ -37,6 +38,7 @@ export default function StatisticsResult() {
     favoriteWeapon: {},
     mapMostPlayed: {},
   });
+  const msgUserNotFound = "Usuário não-encontrado!";
 
   function getPlayer() {
     if (playerID) {
@@ -72,6 +74,7 @@ export default function StatisticsResult() {
                 favoriteWeapon = getWeaponMoreUsed(weapons);
               })
               .catch(() => {
+                showToastError();
                 return history.push("/statistics");
               });
             let mapMostPlayed;
@@ -82,6 +85,7 @@ export default function StatisticsResult() {
                 mapMostPlayed = getMapMostPlayed(maps);
               })
               .catch(() => {
+                showToastError();
                 return history.push("/statistics");
               });
             setPlayer({
@@ -102,11 +106,20 @@ export default function StatisticsResult() {
           }
         })
         .catch(() => {
+          showToastError();
           return history.push("/statistics");
         });
     } else {
+      showToastError("Nenhum usuário informado");
       history.push("/statistics");
     }
+  }
+
+  function showToastError(msg) {
+    if (msg) {
+      return toast.error(msg);
+    }
+    return toast.error(msgUserNotFound);
   }
 
   function getWeaponMoreUsed(weapons) {

@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import { GlobalStyle } from "./styles";
 
@@ -31,6 +33,7 @@ export default function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+      <ToastContainer newestOnTop={true} autoClose={3000} />
       <GlobalStyle />
     </div>
   );

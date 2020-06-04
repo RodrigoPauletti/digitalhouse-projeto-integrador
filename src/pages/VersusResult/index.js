@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import Lottie from "lottie-web-react";
+import { toast } from "react-toastify";
 
 import { api } from "../../services/api";
 
@@ -23,13 +24,14 @@ export default function VersusResult() {
   const history = useHistory();
   const [loading, setLoading] = useState(true);
   const { playerID1, playerID2 } = useLocation();
-
   const [players, setPlayers] = useState([]);
+  const msgUserNotFound = "Player XXXX não-encontrado!";
 
   function getPlayer() {
     if (playerID1 && playerID2) {
       getPlayers([playerID1, playerID2]);
     } else {
+      showToastError("Usuários não-informados");
       history.push("/versus");
     }
   }
@@ -68,6 +70,7 @@ export default function VersusResult() {
                 favoriteWeapon = getWeaponMoreUsed(weapons);
               })
               .catch(() => {
+                showToastError(null, index);
                 return history.push("/versus");
               });
             let mapMostPlayed;
@@ -78,6 +81,7 @@ export default function VersusResult() {
                 mapMostPlayed = getMapMostPlayed(maps);
               })
               .catch(() => {
+                showToastError(null, index);
                 return history.push("/versus");
               });
             return {
@@ -107,15 +111,27 @@ export default function VersusResult() {
           }
         })
         .catch(() => {
+          showToastError(null, index);
           return history.push("/versus");
         });
     });
-    let newPlayers = (await Promise.all(players)).sort(
-      makeSorter((x) => x.killsData.totalKills, "desc")
-    );
-    newPlayers[0].winner = true;
-    setPlayers(newPlayers);
-    setLoading(false);
+    if (players.length) {
+      let newPlayers = (await Promise.all(players)).sort(
+        makeSorter((x) => x.killsData.totalKills, "desc")
+      );
+      if (newPlayers[0]) {
+        newPlayers[0].winner = true;
+      }
+      setPlayers(newPlayers);
+      setLoading(false);
+    }
+  }
+
+  function showToastError(msg, playerIndex) {
+    if (msg) {
+      return toast.error(msg);
+    }
+    return toast.error(msgUserNotFound.replace("XXXX", playerIndex + 1));
   }
 
   function getWeaponMoreUsed(weapons) {

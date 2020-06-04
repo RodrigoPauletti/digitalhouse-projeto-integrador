@@ -13,6 +13,7 @@ import {
   WarningIcon,
   WarningText,
   WarningTextFeatured,
+  CopyrightText,
 } from "./styles";
 import { InternalContainer, Bar } from "../../styles";
 
@@ -55,6 +56,9 @@ export default function Home() {
               Criar conta CS:GO e começar a jogar!
             </WarningTextFeatured>
           </WarningContainer>
+          <CopyrightText>
+            Copyright © 2020 Grupo 3 - Front End Coding Facebook - Digital House
+          </CopyrightText>
         </InternalContainer>
       </SeeYourStatisticsContainer>
       <HomeGlobalStyle />

@@ -54,3 +54,10 @@ export const WarningTextFeatured = styled.a`
   font-weight: bold;
   font-size: 12px;
 `;
+
+export const CopyrightText = styled.p`
+  color: ${colors.yellow};
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+`;
